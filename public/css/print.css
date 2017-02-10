@@ -1,0 +1,70 @@
+@media screen, print{
+    @page{
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: 'KM1';
+        src: url('fonts/khmer M1.volt.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'HAN';
+        src: url('fonts/Hanuman.ttf') format('truetype');
+    }
+
+    body {
+        background-color: #ddd;
+        font-family: 'Khmer OS Content';
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-A4 {
+        background-color: #fff;
+        box-shadow: 0 0 5px #808080;
+        width: 610pt;
+        min-height:70.17em;
+        margin: auto;
+        font-size: 13px!important;
+        padding: 15pt;
+    }
+
+    .font-HA{
+        font-family: 'HAN';
+    }
+
+    .font-M1{
+        font-family: 'KM1';
+    }
+    .center {
+        text-align: center;
+    }
+    .table {
+        width: 100%;
+        border: 1px solid #000;
+        border-collapse: collapse;
+    }
+
+    .table>thead>tr>th, .table>tbody>tr>td , .table>tfoot>tr>td {
+        border: 1px solid #000;
+        padding: 3px 5px;
+    }
+
+    .table th {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .font-align {
+        vertical-align: middle;
+    }
+
+}
+
+@media screen{
+    .container-A4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

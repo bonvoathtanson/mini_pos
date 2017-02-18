@@ -1,4 +1,4 @@
-var burl = 'http://localhost/ppsand.com/public';
+var burl = 'http://localhost/mini_pos/public';
 $('.no-report').addClass('show');
 $('.report').addClass('hide');
 function Loading() {

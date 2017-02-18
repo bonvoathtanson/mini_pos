@@ -18,7 +18,7 @@
                         <form class="form-horizontal" role="form" method="POST" action="{{ url('/dologin') }}">
                             {{ csrf_field() }}
                             <div class="form-group">
-                                <label class="col-md-4 control-label">ឈ្មោះគណនេយ្យ</label>
+                                <label class="col-md-4 control-label">ឈ្មោះគណនី</label>
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" name="name">
                                 </div>
